@@ -1,0 +1,12 @@
+def solution(num1, num2):
+    answer = 0
+    
+    if num1 == num2:
+        answer = 1
+        print(answer)
+    
+    else:
+        answer = -1
+        print(answer)
+    
+    return answer
